@@ -1,0 +1,13 @@
+.child-item {
+    margin-left: 15px;
+}
+.explorer-container {
+    text-align: left;
+    padding: 20px;
+}
+.hidden-item {
+    display: none;
+}
+.folder-item{
+    cursor: pointer;
+}

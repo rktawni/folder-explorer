@@ -1,0 +1,58 @@
+{
+    "data": {
+        "name": "React-File-Explorer",
+        "isFolder": true,
+        "children": [
+            {
+                "name": "node_module",
+                "isFolder": true,
+                "children": [
+                    {
+                        "name":"nodeFile",
+                        "type":"file"
+                    }
+                ]
+            },
+            {
+                "name": "public",
+                "isFolder": true,
+                "children": [
+                    {
+                        "name": "assets",
+                        "isFolder": true,
+                        "children": [
+                            {
+                                "name":"vite.svg",
+                                "type":"file"
+                            }
+                        ]
+                    },
+                    {
+                        "name":"config.json"
+                    }
+                ]
+            },
+            {
+                "name": "src",
+                "isFolder": true,
+                "children": [
+                    {
+                        "name":"app.css"
+                    },
+                    {
+                        "name":"app.jsx"
+                    },
+                    {
+                        "name":"main.jsx"
+                    }
+                ]
+            },
+            {
+                "name":".gitignore"
+            },
+            {
+                "name":"package.json"
+            }
+        ]
+    }
+}
