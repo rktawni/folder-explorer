@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './nested-files.css';
 export default function NestedFileItem({treeItem}) {
 
-    const [item, setItem] = useState(treeItem);
+    const item = treeItem;
     const [showChildren, setShowChildren] = useState(false);
 
     const setChildVisible = (evt)=>{
